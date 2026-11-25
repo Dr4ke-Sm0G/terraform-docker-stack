@@ -1,0 +1,14 @@
+# Dossier des plugins téléchargés par terraform init (très lourd)
+.terraform/
+*.terraform.lock.hcl
+
+# Fichiers d'état Terraform (contiennent tes mots de passe en clair !)
+*.tfstate
+*.tfstate.*
+
+# Fichiers de crash et logs
+crash.log
+crash.*.log
+
+# Optionnel : décommente la ligne ci-dessous si tu ne veux pas publier tes vrais mots de passe de prod
+# *.tfvars
